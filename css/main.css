@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  src: local(""), url("../fonts/Gilroy-Extrabold.woff2") format("woff2"), url("../fonts/Gilroy-Extrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 800;
+  src: local(""), url("../fonts/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -397,5 +439,32 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.cooperate__wrapper {
+  display: block;
+  margin: 0 auto;
+}
+
+.cooperate__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 78px;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.03px;
+  color: #222227;
+}
+
+.cooperate__left-btn {
+  width: 40px;
+  height: 40px;
+  margin-right: 42px;
+}
+
+.cooperate__btn-img {
+  width: 40px;
+  height: 40px;
 }
 /*# sourceMappingURL=main.css.map */
